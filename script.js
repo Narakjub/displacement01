@@ -7,7 +7,7 @@ document.getElementById('inputForm').addEventListener('submit', function(event) 
     const a = parseFloat(document.getElementById('a').value);
     const t = parseFloat(document.getElementById('t').value);
 
-    const intervals = parsefloat(document.getElementById('inter').value);
+    const intervals = 10;
     const data = [];
 
     for (let i = 0; i <= intervals; i++) {
